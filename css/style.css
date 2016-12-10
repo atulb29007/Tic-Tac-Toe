@@ -81,16 +81,17 @@ div#gameboard>ul>li>button.unpushed{
   border-radius:10px;
   box-shadow:none;
   border:none;
-  font-size:25px;
-  color:#00a295;
+  font-size:35px;
+  color:white;
   font-weight:bold;
   background-color:#dee8ff;
+  outline:0;
 }
 div#gameboard>ul>li>button.unpushed:hover{
   background-color:#bcd1ff;
 }
 div#gameboard>ul>li>button.pushed-1{
-  color:#85c885;
+  color:#5dde3e;
 }
 div#gameboard>ul>li>button.pushed-2{
   color:#e25a59;
@@ -107,4 +108,19 @@ div#reset-div>p#reset-para{
   border-radius:10px;
   background-color:#E25A59;
   color:white;
+  cursor:pointer;
+}
+
+div#result-div>p{
+  margin:15px auto 10px auto;
+  padding:0;
+  width:80%;
+  text-align:center;
+  font-size:1.4em;
+  line-height:40px;
+  font-family:'Josefin Sans';
+  border-radius:10px;
+  background-color:#5bc0de;
+  color:white;
+  cursor:pointer;
 }
