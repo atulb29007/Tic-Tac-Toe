@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+
+    <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b05b73ef-62d8-41d9-941d-861fa89080ea.css"/>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <h1 class="text-center" id="main-heading">Tic Tac Toe Game</h1>
+
+    <div class="container-fluid" id="game-container">
+
+      <div class="row" id="player-row">
+        <div class="col-xs-6 player-div" id="player-1">
+          <p class="active-player">player 1</p>
+        </div>
+        <div class="col-xs-6 player-div" id="player-2">
+          <p>player 2</p>
+        </div>
+      </div>
+
+      <div class="full-width-div" id="result-div">
+      </div>
+
+      <div id="gameboard">
+        <ul class="clearfix">
+          <li><button class="gameboard-button unpushed pushed-1" id="btn1">o</button></li>
+          <li><button class="gameboard-button unpushed pushed-2" id="btn2">x</button></li>
+          <li><button class="gameboard-button unpushed" id="btn3">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn4">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn5">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn6">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn7">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn8">+</button></li>
+          <li><button class="gameboard-button unpushed" id="btn9">+</button></li>
+        </ul>
+      </div>
+
+      <div class="full-width-div" id="reset-div">
+        <p id="reset-para">Reset Game</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
